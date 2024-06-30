@@ -1,0 +1,71 @@
+
+ .emoji-button{
+  cursor: pointer;
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+
+  
+}
+body {
+  background-color: rgba(25,25,25);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.emoji {
+  width: 50px;
+  height: 50px;
+  
+}
+
+.result {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.reset-score{
+  padding:8px 15px 8px 15px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moves {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.reset-score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
